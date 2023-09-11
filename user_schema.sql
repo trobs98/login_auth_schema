@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `UserSchema`
+CREATE DATABASE  IF NOT EXISTS `UserSchema`;
 USE `UserSchema`;
 
 --
