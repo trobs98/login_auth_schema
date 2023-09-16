@@ -40,7 +40,7 @@ CREATE TABLE `UserAudit` (
   `id` int NOT NULL AUTO_INCREMENT,
   `FK_userId` int NOT NULL,
   `login_date` varchar(25) NOT NULL,
-  `login_IP` varchar(15) NOT NULL,
+  `login_IP` varchar(100) NOT NULL,
   `cookie` varchar(250) NOT NULL,
   `expiry_date` varchar(25) NOT NULL,
   PRIMARY KEY (`id`),
