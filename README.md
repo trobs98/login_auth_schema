@@ -24,7 +24,8 @@ The Schema consists of a User table, a UserAudit table and a ResetPasswordToken 
         - The expiration date of the token
     - A token is sent along with a reset password email and is deleted each time a user requests a new one  
 
-![image](https://user-images.githubusercontent.com/45018105/212144874-9a642c87-76ed-4e00-baa9-d6942fd3380f.png)
+![image](https://github.com/trobs98/login_auth_schema/assets/45018105/94027bbc-44fc-49f1-b393-3546f7a6e009)
+
 
 ### Setup - WSL2 - Ubuntu
 To setup the database, import the user_schema.sql file into your MySQL server using the following command:
